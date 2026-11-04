@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CI/CD Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4ff;
+            color: #263252;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4338ca, #9333ea);
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            font-size: 30px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 65px 20px;
+            background: linear-gradient(135deg, #dbeafe, #f3e8ff);
+        }
+
+        .hero h2 {
+            font-size: 34px;
+            color: #4338ca;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 17px;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #7c3aed;
+            color: white;
+            padding: 13px 28px;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 25px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px #00000015;
+        }
+
+        .card h3 {
+            color: #6d28d9;
+            margin-bottom: 12px;
+        }
+
+        footer {
+            background: #312e81;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My CI/CD Website</h1>
+        <p>Docker | Jenkins | GitHub | AWS</p>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to My Website!</h2>
+        <p>My automatic CI/CD pipeline is working successfully!</p>
+        <a href="#services" class="button">Explore More</a>
+    </section>
+
+    <section class="cards" id="services">
+        <div class="card">
+            <h3>GitHub</h3>
+            <p>Source code management and version control.</p>
+        </div>
+
+        <div class="card">
+            <h3>Jenkins</h3>
+            <p>Automatic build and deployment pipeline.</p>
+        </div>
+
+        <div class="card">
+            <h3>Docker & AWS</h3>
+            <p>Containerization and cloud hosting.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>My CI/CD Project | Designed by Yazhini</p>
+    </footer>
+
+</body>
+</html>
